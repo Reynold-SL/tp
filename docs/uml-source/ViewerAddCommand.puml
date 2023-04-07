@@ -1,7 +1,7 @@
 @startuml
 title ViewerAddCommand.executeCommand() Sequence Diagram
 
-participant ":ParseViewerCommand" as ParseViewerCommand
+participant "ParseViewerCommand" as ParseViewerCommand
 participant ":ViewerAddCommand" as ViewerAddCommand
 participant ":PC" as PC
 participant ":DataStorage.pcList" as DataStorage.pcList
