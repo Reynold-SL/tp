@@ -6,6 +6,7 @@ participant ":ViewerAddCommand" as ViewerAddCommand
 participant ":PC" as PC
 participant ":DataStorage.pcList" as DataStorage.pcList
 
+activate ParseViewerCommand
 opt "add <name>"
 ParseViewerCommand -> ViewerAddCommand: ViewerAddCommand(String arguments)
 activate ViewerAddCommand
